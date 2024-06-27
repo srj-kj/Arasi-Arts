@@ -1,19 +1,23 @@
 import React, { useState } from "react";
+import carousal_1 from "../public/assets/images/carousal-1.png";
+import carousal_2 from "../public/assets/images/carousal-2.png";
+import carousal_3 from "../public/assets/images/carousal-3.png";
+
 
 const sections = [
   {
     item: "1",
-    url: "src/assets/images/carousal-1.png",
+    url: {carousal_1},
     title: "Pencil Portrait",
   },
   {
     item: "2",
-    url: "src/assets/images/carousal-2.png",
+    url: {carousal_2},
     title: "Abstract Art",
   },
   {
     item: "3",
-    url: "src/assets/images/carousal-3.png",
+    url: {carousal_3},
     title: "Nature Scenery",
   },
 ];

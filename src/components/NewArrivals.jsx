@@ -1,4 +1,12 @@
 import React, { useState } from 'react';
+import new_1 from "../public/assets/images/nw-1.png";
+import new_2 from "../public/assets/images/nw-2.png";
+import new_3 from "../public/assets/images/nw-3.png";
+import new_4 from "../public/assets/images/nw-4.png";
+import new_5 from "../public/assets/images/nw-5.png";
+import new_6 from "../public/assets/images/nw-5.png";
+import star from "../public/assets/images/star.png";
+
 
 const sections = [
   { item: 1, title: "Tanjore painting", category: 1 },
@@ -9,12 +17,12 @@ const sections = [
 ];
 
 const images = [
-  { url: "src/assets/images/nw-1.png",title: "Oil painting", category: 2, rating: 5 },
-  { url: "src/assets/images/nw-2.png",title: "Clay painting", category: 2, rating: 5 },
-  { url: "src/assets/images/nw-3.png", title: "Pencil painting",category: 2, rating: 5 },
-  { url: "src/assets/images/nw-4.png",title: "Relief Art", category: 2, rating: 5 },
-  { url: "src/assets/images/nw-5.png",title: "Saree painting", category: 2, rating: 5 },
-  { url: "src/assets/images/nw-6.png",title: "Resin painting", category: 2, rating: 5 },
+  { url: {new_1},title: "Oil painting", category: 2, rating: 5 },
+  { url:{new_2},title: "Clay painting", category: 2, rating: 5 },
+  { url: {new_3}, title: "Pencil painting",category: 2, rating: 5 },
+  { url: {new_4},title: "Relief Art", category: 2, rating: 5 },
+  { url: {new_5},title: "Saree painting", category: 2, rating: 5 },
+  { url: {new_6},title: "Resin painting", category: 2, rating: 5 },
   
 ];
 
@@ -80,7 +88,7 @@ const Card = ({ url, rating, title }) => {
           {Array.from({ length: rating }, (_, index) => (
             <img
               key={index}
-              src="src/assets/images/star.png"
+              src={star}
               alt="Star"
               className="w-4 h-4"
             />

@@ -1,5 +1,8 @@
 import React from "react";
 import hero_1 from "../public/assets/images/hero-1.jpeg";
+import hero_2 from "../public/assets/images/hero-2.jpeg";
+import hero_3 from "../public/assets/images/hero-3.jpeg";
+import hero_4 from "../public/assets/images/hero-4.jpeg";
 
 
 const Hero = () => {
@@ -37,7 +40,7 @@ const Hero = () => {
       <div className="flex flex-col w-1/3" style={{ gap: "16px" }}>
         <div style={{ height: "150px" }}>
           <img
-            src="src/assets/images/hero-2.png"
+            src={hero_2}
             alt="Top Image"
             style={imageStyle}
           />
@@ -60,7 +63,7 @@ const Hero = () => {
         </div>
         <div style={{ height: "150px" }}>
           <img
-            src="src/assets/images/hero-3.png"
+            src={hero_3}
             alt="Bottom Image"
             style={imageStyle}
           />
@@ -69,7 +72,7 @@ const Hero = () => {
 
       <div className="w-1/3 h-full">
         <img
-          src="src/assets/images/hero-4.jpeg"
+          src={hero_4}
           alt="Section 3 Image"
           style={imageStyle}
         />
