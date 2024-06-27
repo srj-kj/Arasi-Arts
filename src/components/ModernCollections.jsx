@@ -7,17 +7,17 @@ import carousal_3 from "../public/assets/images/carousal-3.png";
 const sections = [
   {
     item: "1",
-    url: {carousal_1},
+    url: carousal_1,
     title: "Pencil Portrait",
   },
   {
     item: "2",
-    url: {carousal_2},
+    url: carousal_2,
     title: "Abstract Art",
   },
   {
     item: "3",
-    url: {carousal_3},
+    url: carousal_3,
     title: "Nature Scenery",
   },
 ];

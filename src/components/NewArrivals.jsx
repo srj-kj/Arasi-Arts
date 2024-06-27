@@ -17,12 +17,12 @@ const sections = [
 ];
 
 const images = [
-  { url: {new_1},title: "Oil painting", category: 2, rating: 5 },
-  { url:{new_2},title: "Clay painting", category: 2, rating: 5 },
-  { url: {new_3}, title: "Pencil painting",category: 2, rating: 5 },
-  { url: {new_4},title: "Relief Art", category: 2, rating: 5 },
-  { url: {new_5},title: "Saree painting", category: 2, rating: 5 },
-  { url: {new_6},title: "Resin painting", category: 2, rating: 5 },
+  { url: new_1,title: "Oil painting", category: 2, rating: 5 },
+  { url:new_2,title: "Clay painting", category: 2, rating: 5 },
+  { url: new_3, title: "Pencil painting",category: 2, rating: 5 },
+  { url: new_4,title: "Relief Art", category: 2, rating: 5 },
+  { url: new_5,title: "Saree painting", category: 2, rating: 5 },
+  { url: new_6,title: "Resin painting", category: 2, rating: 5 },
   
 ];
 
