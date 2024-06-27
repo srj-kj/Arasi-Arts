@@ -26,7 +26,7 @@ const Hero = () => {
         }}
       >
         <img
-          src="src/assets/images/hero-1.jpeg"
+          src="src/public/assets/images/hero-1.jpeg"
           alt="Section 1 Image"
           style={imageStyle}
         />
