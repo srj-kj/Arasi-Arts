@@ -1,4 +1,6 @@
 import React from "react";
+import hero_1 from "../public/assets/images/hero-1.jpeg";
+
 
 const Hero = () => {
   const imageStyle = {
@@ -26,7 +28,7 @@ const Hero = () => {
         }}
       >
         <img
-          src="src/public/assets/images/hero-1.jpeg"
+          src={hero_1}
           alt="Section 1 Image"
           style={imageStyle}
         />
