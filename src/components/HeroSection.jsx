@@ -1,7 +1,7 @@
 import React from "react";
 import hero_1 from "../public/assets/images/hero-1.jpeg";
-import hero_2 from "../public/assets/images/hero-2.jpeg";
-import hero_3 from "../public/assets/images/hero-3.jpeg";
+import hero_2 from "../public/assets/images/hero-2.png";
+import hero_3 from "../public/assets/images/hero-3.png";
 import hero_4 from "../public/assets/images/hero-4.jpeg";
 
 
