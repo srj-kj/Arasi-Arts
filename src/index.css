@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Volkhov:wght@400;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+.custom-font-volkhov {
+  font-family: 'Volkhov', serif;
+}
+
+.custom-font-poppins {
+  font-family: 'Poppins', sans-serif;
+}
+
+.custom-width {
+  @apply w-custom;
+}
