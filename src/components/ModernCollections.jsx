@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import carousal_1 from "../public/assets/images/carousal-1.png";
-import carousal_2 from "../public/assets/images/carousal-2.png";
+import carousal_2 from "../public/assets/images/hero-2.png";
 import carousal_3 from "../public/assets/images/carousal-3.png";
 
 
